@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1 id="head1">Keyword Extractor</h1>
+    <form action="/extract_keywords" method="post" class="extract-form" enctype="multipart/form-data">
+        <h2 class="head2">Extract Keywords</h2>
+        <div class="form-group">
+            <label for="file" class="upload">Upload a File : </label>
+            <input type="file" name="file" class="form-input">
+        </div>
+        <button type="submit" class="extract-btn">Extract Keywords</button>
+    </form>
+</body>
+</html>

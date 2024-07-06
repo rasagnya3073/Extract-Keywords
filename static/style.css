@@ -1,0 +1,51 @@
+
+body{
+    background-color: bisque;
+}
+
+#head1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(116, 29, 29);
+}
+
+.extract-form{
+    border: 3px solid black;
+    border-radius: 15px;
+    display: block;
+    padding: 15px;
+    color: white;
+    background-color: rgb(116, 29, 29);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15px;
+}
+
+.form-group{
+    display: flex;
+    margin: 30px;
+}
+
+.upload{
+    font-size: 30px;
+    font-weight: bold;
+    flex-basis: 35%;
+}
+
+.form-input{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    flex-basis: 45%;
+    color: rgba(0, 0, 0, 0.527);
+}
+
+.extract-btn{
+    display: block;
+    margin: 30px auto;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor:pointer;
+}
